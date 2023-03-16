@@ -1,4 +1,4 @@
-import { ACCOUNT_TYPE, TAccount } from "./types";
+import { ACCOUNT_TYPE, POKEMON_TYPE, TAccount, TPokemon } from "./types";
 
 export const accounts: TAccount[] = [
     {
@@ -20,3 +20,24 @@ export const accounts: TAccount[] = [
         type: ACCOUNT_TYPE.PLATINUM
     }
 ]
+
+export const pokemons: TPokemon[] = [
+    {
+        id: "001",
+        name: "Charmander",
+        type: POKEMON_TYPE.FIRE,
+        power: 100
+    },
+    {
+        id: "002",
+        name: "Bulbasaur",
+        type: POKEMON_TYPE.GRASS,
+        power: 100
+    },
+    {
+        id: "003",
+        name: "Squirtle",
+        type: POKEMON_TYPE.WATER,
+        power: 100
+    }
+] 
